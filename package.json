@@ -5,7 +5,9 @@
 	"author": "Jonathan Bristow <jonathanbristow@me.com>",
 	"license": "MIT",
 	"main": "index",
-	"dependencies": {},
+	"dependencies": {
+		"logrotate-stream": "0.2.3"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/JonathanBristow/sparkphase-reporter.git"
