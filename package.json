@@ -1,13 +1,12 @@
 {
-	"name": "sparkphase-reporter",
-	"version": "0.1.0",
-	"repository": "https://github.com/JonathanBristow/sparkphase-reporter",
-	"author": "Jonathan Bristow <jonathanbristow@me.com>",
-	"license": "MIT",
-	"main": "index",
-	"dependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/JonathanBristow/sparkphase-reporter.git"
-	}
+    "name": "sparkphase-reporter",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JonathanBristow/sparkphase-reporter.git"
+    },
+    "author": "Jonathan Bristow <jonathanbristow@me.com>",
+    "license": "MIT",
+    "main": "index",
+    "dependencies": {}
 }
