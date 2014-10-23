@@ -18,7 +18,4 @@ module.exports = function Reporter(Options) {
 		console.log('This error has caused the application to exit.');
 		process.exit();
 	}
-	
-	
-	someStream.pipe(Options.Type+' => '+Options.Group+' => '+Options.Message);
 }
