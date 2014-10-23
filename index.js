@@ -5,8 +5,8 @@
 	Repository: https://github.com/JonathanBristow/sparkphase-reporter
 */
 
-var Stream = require('logrotate-stream'),
-	toLogFile = Stream({ file: './test.log', size: '100k', keep: 3 });
+//var Stream = require('logrotate-stream'),
+//	toLogFile = Stream({ file: './test.log', size: '100k', keep: 3 });
 
 
 module.exports = function Reporter(Options) {
