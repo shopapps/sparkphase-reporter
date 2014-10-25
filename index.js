@@ -5,12 +5,14 @@
 	Repository: https://github.com/JonathanBristow/sparkphase-reporter
 */
 
-//var Stream = require('logrotate-stream'),
-//	toLogFile = Stream({ file: './test.log', size: '100k', keep: 3 });
-
+var Colors = require('colors');
 
 module.exports = function Reporter(Options) {
-	console.log(Options.Type+' => '+Options.Group+' => '+Options.Message);	
+
+
+	console.log(Options.Type+' => '+Options.Group+' => '+Options.Message.green);	
+	
+	
 	if (Options.Detail) {
 		console.log('Detail:', Options.Detail);
 	}

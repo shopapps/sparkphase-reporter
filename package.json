@@ -8,5 +8,7 @@
     "author": "Jonathan Bristow <jonathanbristow@me.com>",
     "license": "MIT",
     "main": "index",
-    "dependencies": {}
+    "dependencies": {
+	    "colors": "1.0.3"
+    }
 }
