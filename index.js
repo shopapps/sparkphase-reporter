@@ -13,6 +13,9 @@ module.exports = function Reporter(Options) {
 		case 'Information':
 			Type = Options.Type.green;
 		break;
+		case 'Debug':
+			Type = Options.Type.yellow;
+		break;
 		case 'Error':
 			Type = Options.Type.red;
 		break;
