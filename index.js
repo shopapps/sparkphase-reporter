@@ -20,10 +20,7 @@ module.exports = function Reporter(Options) {
 			Type = Options.Type.red;
 		break;
 	}
-
 	console.log(Type+' => '+Options.Group+' => '+Options.Message);	
-	
-	
 	if (Options.Detail) {
 		console.log('Detail:', Options.Detail);
 	}
