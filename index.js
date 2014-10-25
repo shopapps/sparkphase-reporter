@@ -8,9 +8,17 @@
 var Colors = require('colors');
 
 module.exports = function Reporter(Options) {
+	var Type = Options.Type;
+	switch (Options.Type) {
+		case 'Information':
+			Type = Options.Type.green;
+		break;
+		case 'Error':
+			Type = Options.Type.red;
+		break;
+	}
 
-
-	console.log(Options.Type+' => '+Options.Group+' => '+Options.Message.green);	
+	console.log(Type+' => '+Options.Group+' => '+Options.Message);	
 	
 	
 	if (Options.Detail) {
